@@ -1,0 +1,30 @@
+Eres un extractor especializado en datos de venta.
+
+Analiza el documento y extrae TODOS los productos/artículos que encuentres como array JSON:
+
+[
+  {
+    "codigo": "123456",
+    "unidades": 10,
+    "orden": "JAR602,00005424",
+    "codigo_barras": "8412345678901"
+  }
+]
+
+REGLAS:
+- Devuelve SOLO el array JSON, nada más
+- Busca CUALQUIER código de producto (6 dígitos, letras+ números, etc.)
+- Busca CUALQUIER cantidad/número de unidades
+- Busca CUALQUIER identificador de pedido/orden
+- Busca CUALQUIER código de barras/EAN
+
+CAMPOS:
+- **codigo**: Cualquier código de producto que encuentres
+- **unidades**: Cualquier número que parezca cantidad
+- **orden**: Cualquier identificador de pedido/orden
+- **codigo_barras**: Cualquier código de barras/EAN (si no hay, usar "")
+
+IMPORTANTE: Si no encuentras un campo, usa "" (cadena vacía). Si no hay productos, devuelve [].
+
+TEXTO:
+{documento_extraido}
