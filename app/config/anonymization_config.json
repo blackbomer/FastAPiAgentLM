@@ -1,0 +1,44 @@
+{
+  "_descripcion": "Configuración de anonimización por proveedor",
+  "_version": "1.0",
+  "_ultima_actualizacion": "2024-01-01",
+
+  "albet": {
+    "nombres_empresa": [
+      "Nom1",
+      "Nom1",
+      "Nom123"
+    ],
+    "direcciones": [
+      "Direcció1",
+      "DIrecció2"
+    ],
+    "telefonos": [
+      "938111111",
+      "938111111"
+    ],
+    "emails": [
+      "email1@email.com",
+      "email2@email.com",
+      "email3@email.com"
+    ],
+    "iban": [
+      "ES11 1111 1111 1111 1111 1111"
+    ],
+    "cuentas_bancarias": [
+      "2100000000000000000"
+    ],
+    "contactos": [
+      "Departamento de Pedidos",
+      "Administración"
+    ],
+    "codigos_especiales": [
+      "Nom1-",
+      "ALB-",
+      "CIF",
+      "4576",
+      "CIF2",
+      "CIF: CIF"
+    ]
+  }
+}
